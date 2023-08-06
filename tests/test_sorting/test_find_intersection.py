@@ -17,7 +17,8 @@ class TestFindSmallestItem(TestCase):
         expected_index = 4
         self.assertEqual(find_smallest_item(unsorted_list), expected_index)
 
-    # Tests that the function returns the index of the first occurrence of the smallest item in a list of duplicate integers
+    # Tests that the function returns the index of the first occurrence of the smallest item in a list of
+    # duplicate integers
     def test_duplicate_integers(self):
         unsorted_list = [5, 3, 7, 1, 1]
         expected_index = 3
@@ -51,7 +52,8 @@ class TestFindSmallestItem(TestCase):
         expected_index = 3
         self.assertEqual(find_smallest_item(unsorted_list), expected_index)
 
-    # Tests that the function returns the index of the first occurrence of the smallest item in a list of repeated largest integers
+    # Tests that the function returns the index of the first occurrence of the smallest item in a list of
+    # repeated largest integers
     def test_repeated_largest_integers(self):
         unsorted_list = [10, 10, 10, 10, 10]
         expected_index = 0

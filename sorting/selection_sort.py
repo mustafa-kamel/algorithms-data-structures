@@ -1,6 +1,3 @@
-import random
-
-
 def find_smallest_item(unsorted_list: list) -> int:
     smallest_index = 0
     smallest = unsorted_list[smallest_index]
